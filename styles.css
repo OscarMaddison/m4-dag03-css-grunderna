@@ -7,3 +7,7 @@
    TODO 6: main (centrerat, max-bredd)
    TODO 7: .knapp
 */
+
+*, *::before, *::after { box-sizing: border-box; } /*Hindrar border och padding från att påverka bredden*/
+body { background-color: #fffaf3; }
+body { margin: 0; } /*Neutraliserar den ursprunliga 8px-marginen*/
