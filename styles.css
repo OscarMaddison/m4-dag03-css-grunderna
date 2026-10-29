@@ -9,7 +9,10 @@
 */
 
 *, *::before, *::after { box-sizing: border-box; } /*Hindrar border och padding från att påverka bredden*/
-body { background-color: #fffaf3; }
+body {
+   background-color: #fffaf3;
+   color: #222222;
+}
 body { margin: 0; } /*Neutraliserar den ursprunliga 8px-marginen*/
 
 header {
@@ -55,12 +58,23 @@ main {
 
 .knapp {
    display: inline-block;
-   background-color: #8c1010;
+   background-color: red;
    color: #ffffff;
+   accent-color: #8c1010;
    padding: 12px 20px;
    border-radius: 6px;
    text-decoration: none;
 }
+.knapp:hover { background-color: #6f0c0c; }
+
+
+a { accent-color: #8c1010; }
+
+.pris { accent-color: #8c1010; }
+
+body h1, body h2, body h3, footer h1, footer h2, footer h3 { color: #3b2418 }
+
+#hero { background-color: #f3e3cf; }
 /*
 Article:
  __________________________
