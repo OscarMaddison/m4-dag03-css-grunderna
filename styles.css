@@ -27,3 +27,14 @@ main { max-width: 1100px; margin: 0 auto; padding 24px; }   /*Margin blir 0 ovan
 
 
 .knapp { display: inline-block; background-color: #ffffff; padding: 12px 20px; border-radius: 6px; text-decoration: none; }
+/*
+Article:
+ __________________________
+|margin_______0__________  |
+| |border_____0________  | |
+| | |padding_16_____   | | |
+|0|0|16|1068x843,348|16|0|0|
+| | |________16________| | |
+| |___________0__________| |
+|_____________0____________|
+*/
